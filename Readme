@@ -1,0 +1,9 @@
+run API test to use:
+
+mvn clean test -Dtest=RunAllTestsRunner -Dkarate.env=qa
+
+
+run perf test to use:
+mvn clean test-compile gatling:test
+
+
