@@ -130,6 +130,5 @@
     <orderEntry type="library" scope="TEST" name="Maven: com.softwaremill.quicklens:quicklens_2.12:1.4.11" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.scala-lang.modules:scala-java8-compat_2.12:0.9.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: com.eatthepath:fast-uuid:0.1" level="project" />
-    <orderEntry type="library" name="scala-sdk-2.13.5" level="application" />
   </component>
 </module>
