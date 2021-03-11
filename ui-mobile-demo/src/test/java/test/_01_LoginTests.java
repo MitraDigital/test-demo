@@ -66,10 +66,4 @@ public class _01_LoginTests extends Testengine implements ITestListener {
 
         verific_screen.validateInvalidVerificationCode();
     }
-
-    @Test(priority = 0, description = "Validate that the user gets an error message for valid OTP")
-    public void test_TC005_verifyTheValidOTP() {
-
-        verific_screen.validateVerificationCode();
-    }
 }
