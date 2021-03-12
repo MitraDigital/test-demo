@@ -13,8 +13,8 @@ class UserSimulationByRequest  extends Simulation {
 
 
   val getUerById = scenario("get user")
-      .exec(http("GET /customer/00000178161bddb5-8e7a3c1109730001")
-      .get("http://add9a025cb6354e6fba0b46fd2cf2dd4-1410882696.ap-south-1.elb.amazonaws.com/customer/00000178161bddb5-8e7a3c1109730001")
+      .exec(http("GET /customer/00000178276ea31e-26777ae3a90e0001")
+      .get("http://add9a025cb6354e6fba0b46fd2cf2dd4-1410882696.ap-south-1.elb.amazonaws.com/customer/00000178276ea31e-26777ae3a90e0001")
       .check(status.is(200)))
 
 

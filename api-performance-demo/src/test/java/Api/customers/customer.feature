@@ -6,7 +6,7 @@ Feature: Customers Feature
   Scenario: Get first customer details by id
 
     Given path 'customer'
-    And path '0000017815f6270e-a673d71b48ca0001'
+    And path '00000178276ea31e-26777ae3a90e0001'
     When method get
     Then status 200
     And match response == { firstName: '#string', lastName: '#string', address: '#string', email: '#string' }
