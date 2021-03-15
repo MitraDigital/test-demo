@@ -9,7 +9,7 @@ Feature: Customers Feature
     And path '0000017833c87284-1a7ea6f868100001'
     When method get
     Then status 200
-    And match response == { firstName: '#string', lastName: '#string', address: '#string', email: '#string' }
+    And match response == { firstName: '#string', lastName: '#string', address: '#string', accounts: '#object', email: '#string', status: '#string' }
     Then match response.firstName == "Thilina"
     Then match response.lastName == "Jayasinghe"
 
